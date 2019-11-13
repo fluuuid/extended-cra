@@ -6,23 +6,23 @@ This project is bootstrapped using Create-react-app, see the original README.md 
 
 This boilerplate uses Typescript, Jest, Storybook, eslint, React and Styled-components on its core.
 
-## Available Scripts
+### Available Scripts
 
 On the project folder in addition to the usual **start**, **build**, **test** and **eject** scripts you have available
 
-### `npm run storybook`
+#### `npm run storybook`
 
 Starts Storybook. This boilerplate automatically renders all components that have a `.stories.tsx` file.
 
-### `npm run build-storybook`
+#### `npm run build-storybook`
 
 Builds Storybook
 
-### `npm run lint:fix`
+#### `npm run lint:fix`
 
 Eslint fix the your source files.
 
-### `npm run cp`
+#### `npm run cp`
 
 Run this command with the path of the component you want to create, e.g.
 
@@ -39,5 +39,3 @@ This command creates the usual React component folder containing:
   - Component.tsx
   - index.tsx
 ```
-
-
