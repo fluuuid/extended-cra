@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import { GlobalStyle, ThemeProvider } from 'theme';
 import './App.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <ThemeProvider>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -19,8 +18,9 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
-    </div>
+      <GlobalStyle />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
