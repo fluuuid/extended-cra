@@ -19,7 +19,8 @@ const size = {
 const theme: DefaultTheme = {
   colors: {
     primary: '#63FFCB',
-    white: '#ccc'
+    white: '#fff',
+    black: '#000'
   },
   breakpoint: {
     mobileS: `(min-width: ${size.mobileS})`,
@@ -62,8 +63,13 @@ const theme: DefaultTheme = {
 export type Theme = typeof theme;
 
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    font-size: 100%;
+  }
   html {
-    font-size: 87.5%;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
   }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

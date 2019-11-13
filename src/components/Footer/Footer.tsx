@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
-  color: ${({ theme }) => theme.colors.primary};
+const FooterEl = styled.header`
+  padding: 1rem;
 `;
 
 const Footer: React.FC = () => {
-  return <Div>hello world</Div>;
+  return <FooterEl>{"I'm a footer"}</FooterEl>;
 };
 
 export default Footer;
