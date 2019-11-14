@@ -4,7 +4,9 @@
 
 This project is bootstrapped using Create-react-app, see the original README.md file on the `docs` folder.
 
-This boilerplate uses Typescript, Jest, Storybook, eslint, React and Styled-components on its core.
+This boilerplate uses Typescript, Jest, Storybook, eslint, React, Helmet,Styled-components and React-Snapshot on its core.
+
+**React-snapshot** will create a "almost static" build, rendering all pages statically on the build folder.
 
 ### Available Scripts
 
