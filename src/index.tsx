@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-snapshot';
-import App from './components/App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 render(<App />, document.getElementById('root'));
