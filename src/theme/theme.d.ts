@@ -6,6 +6,8 @@ declare module 'styled-components' {
       primary: string;
       white: string;
       black: string;
+      gray: string;
+      lightGray: string;
     };
 
     breakpoint: {

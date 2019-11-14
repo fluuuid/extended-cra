@@ -1,25 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-
-const Box = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: ${({ theme }) => theme.colors.black};
-  color: ${({ theme }) => theme.colors.white};
-  height: 100%;
-  position: relative;
-  min-height: 100vh;
-  font-size: 1rem;
-  flex-flow: column;
-`;
+import { Box } from 'theme/ui';
 
 const Logo = styled.div`
   width: 100%;
   max-width: 200px;
 `;
 
-const Content: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <Box>
       <Logo>
@@ -31,10 +19,10 @@ const Content: React.FC = () => {
         </svg>
       </Logo>
       <p>
-        Edit <code>src/components/App/App.tsx</code> and save to reload.
+        Edit <code>src/components/Home/Home.tsx</code> and save to reload.
       </p>
     </Box>
   );
 };
 
-export default Content;
+export default Home;

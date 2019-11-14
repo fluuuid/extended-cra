@@ -20,7 +20,9 @@ const theme: DefaultTheme = {
   colors: {
     primary: '#63FFCB',
     white: '#fff',
-    black: '#000'
+    black: '#000',
+    gray: '#111',
+    lightGray: '#666'
   },
   breakpoint: {
     mobileS: `(min-width: ${size.mobileS})`,
