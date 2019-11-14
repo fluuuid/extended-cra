@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-export const Box = styled.div`
+export const Layout = styled.div`
+  position: relative;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.black};
-  color: ${({ theme }) => theme.colors.white};
   height: 100%;
-  position: relative;
-  min-height: 100vh;
+  color: ${({ theme }) => theme.colors.white};
   font-size: 1rem;
-  flex-flow: column;
+  background-color: ${({ theme }) => theme.colors.black};
+  min-height: 100vh;
 `;

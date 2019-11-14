@@ -1,8 +1,14 @@
 import React from 'react';
-import { Box } from 'theme/ui';
+import Helmet from 'react-helmet';
+import { Layout } from 'theme/ui';
 
-const About = () => {
-  return <Box>About Page</Box>;
+const About: React.FC = () => {
+  return (
+    <>
+      <Helmet title="Extended CRA | About" />
+      <Layout>About Page</Layout>
+    </>
+  );
 };
 
 export default About;
