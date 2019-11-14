@@ -8,4 +8,3 @@ describe('<Home />', () => {
     expect(wrapper).toMatchSnapshot();
   });
 });
-  
