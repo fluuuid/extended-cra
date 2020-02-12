@@ -1,0 +1,17 @@
+import { Meta, Story, Props } from '@storybook/addon-docs/blocks';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './Header';
+
+<Meta title="Demo/header" component={Header} />
+
+# Header
+
+With `MDX` we write longform markdown documentation for our `Header` component and embed Doc Blocks inline.
+
+<Props of={Header} />
+
+<Story name="positive">
+  <Router>
+    <Header />
+  </Router>
+</Story>

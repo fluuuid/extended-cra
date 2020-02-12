@@ -10,7 +10,7 @@ const Decorator = (storyFn) => (
 
 addDecorator(Decorator)
 
-configure(require.context('../src', true, /\.stories\.tsx$/), module);
+configure(require.context('../src', true, /\.stories\.(tsx)$/), module);
 
 
 

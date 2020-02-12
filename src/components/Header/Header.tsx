@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link, withRouter } from 'react-router-dom';
+import { Link, withRouter, BrowserRouter as Router } from 'react-router-dom';
 
 const Wrapper = styled.header`
   padding: 1rem;
@@ -19,12 +19,14 @@ const A = styled(Link)`
 `;
 
 const Header: React.FC = () => (
-  <Wrapper>
-    <Nav>
-      <A to="/">Home</A>
-      <A to="/about">About</A>
-    </Nav>
-  </Wrapper>
+  <Router>
+    <Wrapper>
+      <Nav>
+        <A to="/">Home</A>
+        <A to="/about">About</A>
+      </Nav>
+    </Wrapper>
+  </Router>
 );
 
 export default withRouter(Header);
