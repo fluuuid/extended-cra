@@ -65,11 +65,8 @@ const theme: DefaultTheme = {
 export type Theme = typeof theme;
 
 export const GlobalStyle = createGlobalStyle`
-  :root {
-    font-size: 100%;
-  }
   html {
-    font-size: 16px;
+    font-size: 100%;
     -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
   }
